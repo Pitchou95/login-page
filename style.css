@@ -27,7 +27,7 @@ section {
 
 h2 {
   font-size: 2em;
-  color: black;
+  color: rgb(180, 19, 137);
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ h2 {
   position: relative;
   margin: 30px 0;
   width: 310px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 3px solid #da1381;
 }
 
 .inputbox label {
@@ -85,12 +85,11 @@ input:valid ~ label {
 .forget label a {
   color: rgb(0, 157, 255);
   word-spacing: 3px;
-  text-decoration: inherit;
+  text-decoration: initial;
   font-weight: 900;
   position: fixed;
-  right: 18px;
-  margin: -20px 145px;
-  font-size: 1em;
+  margin: -20px 179px;
+  font-size: 1.1em;
   display: flex;
   justify-content: right;
   font-style: italic;
